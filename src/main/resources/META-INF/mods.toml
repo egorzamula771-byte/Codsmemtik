@@ -1,0 +1,30 @@
+modLoader="javafxmod"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+modId="cosmeticclient"
+version="${version}"
+displayName="CosmeticClient"
+credits="CosmeticClient Team"
+authors="egorzamula771-byte"
+description='''
+CosmeticClient - PvP Helper Mod for Minecraft 1.16.5
+Features: Killaura, ESP, Speedhack, Fly, Trigger Bot
+Menu: Right Shift Key
+All features ENABLED by default!
+'''
+
+[[dependencies.cosmeticclient]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.cosmeticclient]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="CLIENT"
