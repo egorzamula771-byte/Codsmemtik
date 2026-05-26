@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Minecraft
+run/
+crash-reports/
+logs/
+
+# Environment
+.env
+.DS_Store
+
+# Java
+*.class
+*.jar
+*.log
+
+# Build
+bin/
